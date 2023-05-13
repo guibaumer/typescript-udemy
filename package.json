@@ -1,0 +1,20 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "aulas de typescript do curso de Otávio Miranda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guibaumer/typescript-udemy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guibaumer/typescript-udemy/issues"
+  },
+  "homepage": "https://github.com/guibaumer/typescript-udemy#readme"
+}
