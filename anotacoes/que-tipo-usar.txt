@@ -1,0 +1,26 @@
+TIPO ALIAS
+
+type nome = {
+    nome: string;
+};
+type sobrenome = {
+    sobrenome: string;
+}
+type TipoPessoa = nome & sobrenome;
+
+class Pessoa implements TipoPessoa {
+    *código;
+}
+
+////////////////////// OU
+
+INTERFACES
+
+interface InterfaceNome {
+    nome: string;
+}
+interface TipoPessoa2 extends InterfaceNome, etc, etc {}
+
+export class Pessoa implements TipoPessoa2 {
+    *código;
+}

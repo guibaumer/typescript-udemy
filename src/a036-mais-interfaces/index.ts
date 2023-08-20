@@ -1,0 +1,3 @@
+interface Pessoa {
+  idade?: number;
+}
